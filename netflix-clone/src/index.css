@@ -1,0 +1,48 @@
+body {
+  background-color: #111;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.App {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  padding: 1rem;
+  background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.banner {
+  position: relative;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.row {
+  margin-left: 20px;
+}
+
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.row__poster {
+  max-height: 200px;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 0.2s;
+}
+
+.row__poster:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

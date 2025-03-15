@@ -1,0 +1,10 @@
+body {
+  background-color: #111;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  padding-top: 60px;
+}
